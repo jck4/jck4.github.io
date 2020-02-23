@@ -1,12 +1,15 @@
-.code { font-family: Consolas, monaco, monospace; }
-.moon-gray { color: #CCCCCC }
-.bg-dark-gray { background-color: #333333 }
+
+body { height: 
+  100vh; margin: 0; 
+
+  /* overflow: hidden; */
+}
 
 
-body { height: 100vh; margin: 0; overflow: none;}
-
-
-
+.viewport{
+  height: 1275px !important;
+  /* overflow: hidden; */
+}
 
 
 .button {
@@ -38,19 +41,17 @@ body { height: 100vh; margin: 0; overflow: none;}
 
 
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ .debug-grid {
+  background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII=) repeat top left;
+}
+
  iframe { height: 100vh !important; }
 
 
-@media only screen and (max-width: 1200px){
-
-    .left{
-        display: none;
-    }
-    .centered {
-        position: relative;
-        transform: translate(-50%, -50%);
-      }
-      .right{
-        display: none;
-    }
-}
