@@ -1,16 +1,10 @@
 
-body { height: 
-  100vh; margin: 0; 
 
-  /* overflow: hidden; */
+
+.bgimg {
+  background-image: url('back.jpg');
+  height: 100vh;
 }
-
-
-.viewport{
-  height: 1275px !important;
-  /* overflow: hidden; */
-}
-
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -39,8 +33,6 @@ body { height:
  }
 
 
-
-
 .center {
   display: block;
   margin-left: auto;
@@ -55,3 +47,15 @@ body { height:
  iframe { height: 100vh !important; }
 
 
+ .border {
+  border-radius: 5%;
+  background: transparent;  
+  border: 10px solid rgba(255,255,255,.4);
+}
+.inner {
+
+  border-radius: 5%;
+  background: rgba(255,255,255,.6);  
+  border: 10px solid transparent;
+  margin: 10px;
+}
