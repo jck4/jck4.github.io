@@ -1,4 +1,49 @@
 
+.code { font-family: Consolas, monaco, monospace; }
+.moon-gray { color: #CCCCCC }
+.bg-dark-gray { background-color: #333333 }
+
+/* body {
+  overflow: hidden; /* Hide scrollbars */
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: ;
+}
+
+li {
+  float: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+.nav{
+  position: fixed;
+  background-color: #333333;
+  font-size: 4vh;
+  width: 100vw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 .bgimg {
@@ -15,21 +60,25 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 2vh;
+  border-radius: 2px;
 }
 
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 
+
+}
 
 .discord {
-
   top: 0;
- 
   left: 0;
- 
   width: 100%;
-
   height: 100vh !important;
- 
  }
 
 
@@ -42,20 +91,4 @@
 
  .debug-grid {
   background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII=) repeat top left;
-}
-
- iframe { height: 100vh !important; }
-
-
- .border {
-  border-radius: 5%;
-  background: transparent;  
-  border: 10px solid rgba(255,255,255,.4);
-}
-.inner {
-
-  border-radius: 5%;
-  background: rgba(255,255,255,.6);  
-  border: 10px solid transparent;
-  margin: 10px;
 }
