@@ -3,43 +3,6 @@
 .moon-gray { color: #CCCCCC }
 .bg-dark-gray { background-color: #333333 }
 
-/* body {
-  overflow: hidden; /* Hide scrollbars */
-} */
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  text-align: ;
-}
-
-li {
-  float: none;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-
-.nav{
-  position: fixed;
-  background-color: #333333;
-  font-size: 4vh;
-  width: 100vw;
-}
 
 html {
   scroll-behavior: smooth;
