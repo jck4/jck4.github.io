@@ -1,9 +1,3 @@
-
-.code { font-family: Consolas, monaco, monospace; }
-.moon-gray { color: #CCCCCC }
-.bg-dark-gray { background-color: #333333 }
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -36,14 +30,6 @@ html {
 
 
 }
-
-.discord {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh !important;
- }
-
 
 .center {
   display: block;
